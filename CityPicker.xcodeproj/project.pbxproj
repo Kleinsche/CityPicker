@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377208FA1F3F2E6C00A42BA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377208F91F3F2E6C00A42BA7 /* AppDelegate.swift */; };
+		377208FC1F3F2E6C00A42BA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377208FB1F3F2E6C00A42BA7 /* ViewController.swift */; };
+		377208FF1F3F2E6C00A42BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377208FD1F3F2E6C00A42BA7 /* Main.storyboard */; };
+		377209011F3F2E6C00A42BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377209001F3F2E6C00A42BA7 /* Assets.xcassets */; };
+		377209041F3F2E6C00A42BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377209021F3F2E6C00A42BA7 /* LaunchScreen.storyboard */; };
+		377209101F3F2E8F00A42BA7 /* AreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772090C1F3F2E8F00A42BA7 /* AreaModel.swift */; };
+		377209111F3F2E8F00A42BA7 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772090D1F3F2E8F00A42BA7 /* CityModel.swift */; };
+		377209121F3F2E8F00A42BA7 /* ProvinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772090E1F3F2E8F00A42BA7 /* ProvinceModel.swift */; };
+		377209131F3F2E8F00A42BA7 /* PopCityPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772090F1F3F2E8F00A42BA7 /* PopCityPicker.swift */; };
+		377209151F3F2F0B00A42BA7 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 377209141F3F2F0B00A42BA7 /* Address.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		377208F61F3F2E6C00A42BA7 /* CityPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		377208F91F3F2E6C00A42BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		377208FB1F3F2E6C00A42BA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		377208FE1F3F2E6C00A42BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		377209001F3F2E6C00A42BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		377209031F3F2E6C00A42BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		377209051F3F2E6C00A42BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3772090C1F3F2E8F00A42BA7 /* AreaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaModel.swift; sourceTree = "<group>"; };
+		3772090D1F3F2E8F00A42BA7 /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		3772090E1F3F2E8F00A42BA7 /* ProvinceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceModel.swift; sourceTree = "<group>"; };
+		3772090F1F3F2E8F00A42BA7 /* PopCityPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopCityPicker.swift; sourceTree = "<group>"; };
+		377209141F3F2F0B00A42BA7 /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377208F31F3F2E6C00A42BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		377208ED1F3F2E6C00A42BA7 = {
+			isa = PBXGroup;
+			children = (
+				377208F81F3F2E6C00A42BA7 /* CityPicker */,
+				377208F71F3F2E6C00A42BA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		377208F71F3F2E6C00A42BA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				377208F61F3F2E6C00A42BA7 /* CityPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		377208F81F3F2E6C00A42BA7 /* CityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				377208F91F3F2E6C00A42BA7 /* AppDelegate.swift */,
+				3772090B1F3F2E8F00A42BA7 /* Model */,
+				3772090F1F3F2E8F00A42BA7 /* PopCityPicker.swift */,
+				377208FB1F3F2E6C00A42BA7 /* ViewController.swift */,
+				377208FD1F3F2E6C00A42BA7 /* Main.storyboard */,
+				377209001F3F2E6C00A42BA7 /* Assets.xcassets */,
+				377209021F3F2E6C00A42BA7 /* LaunchScreen.storyboard */,
+				377209051F3F2E6C00A42BA7 /* Info.plist */,
+			);
+			path = CityPicker;
+			sourceTree = "<group>";
+		};
+		3772090B1F3F2E8F00A42BA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				377209141F3F2F0B00A42BA7 /* Address.plist */,
+				3772090C1F3F2E8F00A42BA7 /* AreaModel.swift */,
+				3772090D1F3F2E8F00A42BA7 /* CityModel.swift */,
+				3772090E1F3F2E8F00A42BA7 /* ProvinceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		377208F51F3F2E6C00A42BA7 /* CityPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377209081F3F2E6C00A42BA7 /* Build configuration list for PBXNativeTarget "CityPicker" */;
+			buildPhases = (
+				377208F21F3F2E6C00A42BA7 /* Sources */,
+				377208F31F3F2E6C00A42BA7 /* Frameworks */,
+				377208F41F3F2E6C00A42BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityPicker;
+			productName = CityPicker;
+			productReference = 377208F61F3F2E6C00A42BA7 /* CityPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		377208EE1F3F2E6C00A42BA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Kleinsche;
+				TargetAttributes = {
+					377208F51F3F2E6C00A42BA7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 377208F11F3F2E6C00A42BA7 /* Build configuration list for PBXProject "CityPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 377208ED1F3F2E6C00A42BA7;
+			productRefGroup = 377208F71F3F2E6C00A42BA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377208F51F3F2E6C00A42BA7 /* CityPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		377208F41F3F2E6C00A42BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377209041F3F2E6C00A42BA7 /* LaunchScreen.storyboard in Resources */,
+				377209151F3F2F0B00A42BA7 /* Address.plist in Resources */,
+				377209011F3F2E6C00A42BA7 /* Assets.xcassets in Resources */,
+				377208FF1F3F2E6C00A42BA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		377208F21F3F2E6C00A42BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377209111F3F2E8F00A42BA7 /* CityModel.swift in Sources */,
+				377209121F3F2E8F00A42BA7 /* ProvinceModel.swift in Sources */,
+				377209131F3F2E8F00A42BA7 /* PopCityPicker.swift in Sources */,
+				377209101F3F2E8F00A42BA7 /* AreaModel.swift in Sources */,
+				377208FC1F3F2E6C00A42BA7 /* ViewController.swift in Sources */,
+				377208FA1F3F2E6C00A42BA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		377208FD1F3F2E6C00A42BA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377208FE1F3F2E6C00A42BA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		377209021F3F2E6C00A42BA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377209031F3F2E6C00A42BA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		377209061F3F2E6C00A42BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		377209071F3F2E6C00A42BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		377209091F3F2E6C00A42BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CityPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kleinsche.CityPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3772090A1F3F2E6C00A42BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CityPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kleinsche.CityPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		377208F11F3F2E6C00A42BA7 /* Build configuration list for PBXProject "CityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377209061F3F2E6C00A42BA7 /* Debug */,
+				377209071F3F2E6C00A42BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377209081F3F2E6C00A42BA7 /* Build configuration list for PBXNativeTarget "CityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377209091F3F2E6C00A42BA7 /* Debug */,
+				3772090A1F3F2E6C00A42BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 377208EE1F3F2E6C00A42BA7 /* Project object */;
+}
